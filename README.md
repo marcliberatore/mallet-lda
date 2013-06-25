@@ -8,10 +8,13 @@ Toolkit.
 
 ## Installation
 
-mallet-lda is alpha-quality software. There is no artifact at the moment;
-use a
-[checkout dependency](https://github.com/technomancy/leiningen/blob/stable/doc/TUTORIAL.md#checkout-dependencies)
-if you want to try it out.
+The latest stable release is 0.1.0.
+
+Add this `:dependency` to your Leiningen `project.clj`:
+
+```clojure
+["marcliberatore/mallet-lda" "0.1.0"]
+```
 
 Feedback and pull requests welcome!
 
