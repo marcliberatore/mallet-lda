@@ -38,7 +38,7 @@
 
 (defn make-instance-list
   "Make an InstanceList using a collection of documents. A document is
-  a map from a document id to the collection of tokens for that
+  a pairing of a document id and the collection of tokens for that
   document. Document ids must be unique, and tokens must be strings."
   ([documents]
      (let [alphabet (Alphabet.)
