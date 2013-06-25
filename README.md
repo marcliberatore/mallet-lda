@@ -8,8 +8,8 @@ Toolkit.
 
 ## Installation
 
-mallet-lda is a alpha-quality. There is no artifact at the moment; use
-a
+mallet-lda is alpha-quality software. There is no artifact at the moment;
+use a
 [checkout dependency](https://github.com/technomancy/leiningen/blob/stable/doc/TUTORIAL.md#checkout-dependencies)
 if you want to try it out.
 
