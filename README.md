@@ -18,10 +18,19 @@ Feedback and pull requests welcome!
 ## Usage
 
 ```clojure
-(let [data [{1 ["a" "little" "lamb"]
-             2 ["row" "your" "boat"]}]
+(ns example
+  (:require [marcliberatore.mallet-lda :refer [make-instance-list lda]]))
+
+...
+
+(let [data [[1 ["a" "little" "lamb"]]  
+            [2 ["row" "your" "boat"]]
+            ...]
       instance-list (make-instance-list data)]
   (lda instance-list))
+  
+...
+
 ```
 
 ## TODO

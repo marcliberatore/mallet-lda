@@ -52,8 +52,8 @@
 ;; The invocation sequence to create a topic model will
 ;; look something like:
 ;;
-;;     (let [data [{1 ["a" "little" "lamb"]
-;;                  2 ["row" "your" "boat"]}]
+;;     (let [data [[1 ["a" "little" "lamb"]]
+;;                 [2 ["row" "your" "boat"]]]
 ;;           instance-list (make-instance-list data)]
 ;;       (lda instance-list))
 ;;
