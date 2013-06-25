@@ -10,7 +10,7 @@
 ;; instance lists. To create a topic model, you must first make an
 ;; instance list.
 
-(ns mallet-lda.core
+(ns marcliberatore.mallet-lda
   (:import [cc.mallet.types Alphabet FeatureSequence Instance InstanceList])
   (:import cc.mallet.topics.ParallelTopicModel))
 
@@ -57,8 +57,7 @@
 ;;           instance-list (make-instance-list data)]
 ;;       (lda instance-list))
 ;;
-;; though you probably will load your data from elsewhere, perhaps
-;; using function in the rpt.topic-modeling namespace.
+;; though you probably will load your data from elsewhere.
 
 (defn lda
   "Return a topic model (ParallelTopicModel) on the given
