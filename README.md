@@ -13,7 +13,7 @@ The latest stable release is 0.1.0.
 Add this `:dependency` to your Leiningen `project.clj`:
 
 ```clojure
-["marcliberatore/mallet-lda" "0.1.0"]
+["marcliberatore.mallet-lda" "0.1.0"]
 ```
 
 Feedback and pull requests welcome!
