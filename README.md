@@ -36,6 +36,15 @@ Feedback and pull requests welcome!
 
 ```
 
+## Sample Documents
+
+The data in `resources/sample-data` is the `web` dataset from MALLET.
+
+> This sample data includes the text of 24 "featured articles" from
+> Wikipedia, 12 from the English version, and 12 from the German
+> version. They were retrieved in December 2008. The text is in UTF-8
+> encoding.
+
 ## TODO
 
 Write an idiomatic wrapper over the return value of `(lda)`.
