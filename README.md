@@ -41,6 +41,15 @@ Feedback and pull requests welcome!
   
 ```
 
+## Changelog
+
+- *0.1.1*
+  - Added `mallet-lda.misc` namespace, which contains functions to load data into the format expected by `mallet-lda`.
+  - Added sample data in `resources`; see `mallet-lda.misc/load-sample-data` for an example of how to load this data.
+
+- *0.1.0*
+  - Initial release.
+
 ## Sample Documents
 
 The data in `resources/sample-data` is the `web` dataset from MALLET.
