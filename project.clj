@@ -1,4 +1,4 @@
-(defproject marcliberatore.mallet-lda "0.1.0"
+(defproject marcliberatore.mallet-lda "0.1.1-SNAPSHOT"
   :description "a clojure wrapper of the LDA topic modeling implementation in MALLET"
   :url "https://github.com/marcliberatore/mallet-lda"
   :license {:name "Eclipse Public License"
