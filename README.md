@@ -22,9 +22,12 @@ Feedback and pull requests welcome!
 
 ```clojure
 (ns example
-  (:require [marcliberatore.mallet-lda :refer [make-instance-list lda]]))
+  (:require [marcliberatore.mallet-lda :refer [make-instance-list lda]]
+            [marcliberatore.mallet-lda.misc :refer [load-sample-documents]]))
 
 ...
+
+;; for example:
 
 (let [data [[1 ["a" "little" "lamb"]]  
             [2 ["row" "your" "boat"]]
@@ -32,8 +35,10 @@ Feedback and pull requests welcome!
       instance-list (make-instance-list data)]
   (lda instance-list))
   
-...
+;; or:
 
+(lda (make-instance-list (load-sample-documents)))
+  
 ```
 
 ## Sample Documents
