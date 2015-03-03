@@ -35,10 +35,9 @@ Feedback and pull requests welcome!
       instance-list (make-instance-list data)]
   (lda instance-list))
   
-;; or:
-
-(lda (make-instance-list (load-sample-documents)))
-  
+;; or, if you're working in a cloned copy of this repository:
+(lda (make-instance-list (load-sample-documents))) 
+;; (the above won't work with the JAR, as it does not include the sample documents.)
 ```
 
 ## Changelog
